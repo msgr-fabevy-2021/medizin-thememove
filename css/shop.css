@@ -153,9 +153,15 @@ p{
 }
 .tm-button.style-flat{
     color: #fff;
+    background-color: #4E97FD;
 }
 .tm-button.style-flat:before{
-    background-color: #4e97fd;
+    background-color: #4E97FD;
+}
+.tm-button.style-flat:hover:before{
+    opacity: 0; 
+}
+.tm-button.style-flat:before{    
     content: "";
     position: absolute;
     z-index: -1;
@@ -166,8 +172,13 @@ p{
     border-radius: inherit;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+.tm-button.style-flat:hover:after{
+    opacity: 1;
+}
 .tm-button.style-flat:after{
     background-color: #e4573d;
+}
+.tm-button.style-flat:after{   
     opacity: 0;
     content: "";
     position: absolute;
@@ -675,6 +686,16 @@ mark, ins {
 .woosw-content-item--price del .amount, .tr-price del .amount, .price del .amount {
     font-size: inherit;
     font-weight: inherit;
+}
+.woosw-content-item--price del:before, .tr-price del:before, .price del:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    margin-top: 0;
+    background: currentColor;
+    content: '';
 }
 .product .product-badges .hot{
     color: #fff;
