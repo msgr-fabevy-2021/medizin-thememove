@@ -5,6 +5,12 @@
 a {
     color: royalblue;
     text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-color: transparent;
+}
+
+ul {
+    list-style: none;
 }
 
 .top-bar-03 {
@@ -630,3 +636,168 @@ p:last-child {
     padding-top: 29px;
     padding-bottom: 29px;
 }
+
+
+
+
+/*<----------- footer -----------> */
+
+#footer-menu {
+    padding: 60px 0 30px 0;
+  
+}
+
+#footer-menu li {
+    font-size: 14px;
+}
+
+
+#footer-menu .footer-links h4 {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer-menu .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer-menu .footer-links ul li {
+    padding: 10px 0;
+    align-items: center;
+    color: #9B9B9B;
+    font-size: 15px;
+}
+
+
+#footer-menu .footer-links ul a {
+    color: #9B9B9B;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 1;
+}
+
+#footer-menu .footer-newsletter h4 {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer-menu .footer-newsletter p {
+    color: #9B9B9B;
+    font-size: 15px;
+}
+
+#footer-menu .footer-newsletter .input-group input {
+    border-radius: 50px;
+   
+}
+
+#footer-menu .footer-newsletter .input-group button {
+    border-radius: 50px;
+    position: absolute;
+    top: -6px;
+    right: -1px;
+    bottom: -1px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 35px 2px 35px;
+    background-color: #4E97FD;
+    color: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+#footer-menu .footer-newsletter .input-group {
+    margin-top: 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+}
+
+#footer-menu .footer-contact {
+margin-bottom: 30px;
+}
+
+#footer-menu .footer-links {
+    margin-bottom: 30px;
+}
+
+
+
+
+#footer-menu .logo-outer {
+    text-align: left;
+}
+
+.logo-outer-inner {
+    margin: 0px 0px 37px 0px;
+}
+
+#footer-menu img {
+    width: 166px;
+}
+
+.call {
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #696969;
+
+}
+
+.call-gmail {
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #696969;
+    margin: 0px 0px 20px 0px;
+    
+}
+
+.contact-num {
+    margin: 0px 0px 13px 0px;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: #E4573D;
+}
+
+.social-icons ul {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0px;
+}
+
+#footer-menu .social-icons li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#footer-menu .twitter {
+    color: #26D0FE;
+}
+
+#footer-menu .facebook {
+    color: #567FA9;
+}
+
+#footer-menu .skype {
+    color: #13BAF7;
+}
+
+#footer-menu .youtube {
+    color: #DA0E2B;
+}
+
+#footer-menu .instagram {
+    color: #987545;
+}
+
